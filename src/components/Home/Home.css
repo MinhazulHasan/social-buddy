@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
+div.homeComponent {
+    background-image: url('../../images/bg.jpg');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.homeComponent h1{
+    font-size: calc(20px + 10vh);
+    line-height: calc(20px + 10vh);
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+    font-family: "Sacramento", cursive;
+    animation: blink 12s infinite;
+}
